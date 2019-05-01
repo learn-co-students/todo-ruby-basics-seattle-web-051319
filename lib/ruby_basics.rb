@@ -6,12 +6,12 @@ def division(num1, num2)
 end
 
 def assign_variable(name)
-  puts "${name}"
+  puts "#{name}"
   return name
 end
 
-def argue()
-  phrase = "${}"
+def argue(phrase)
+  phrase = "#{}"
   return phrase
 end
 
@@ -19,16 +19,14 @@ def greeting(greeting, name)
 
 end
 
-def return_a_value(string)
-  puts "Nice"
-  return return_a_value
+def return_a_value(word)
+  return "Nice"
 end
 
-def last_evaluated_value(phrase)
-  phrase = "expert"
-  return phrase
+def last_evaluated_value(person)
+  return "expert"
 end
 
 def pizza_party(toppings="cheese")
-  return "${toppings}"
+  return "#{toppings}"
 end
