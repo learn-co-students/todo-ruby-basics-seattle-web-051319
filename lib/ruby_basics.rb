@@ -11,19 +11,18 @@ def assign_variable(name)
 end
 
 def argue(phrase)
-  phrase = "#{}"
-  return phrase
+  return "I'm right and you are wrong!"
 end
 
 def greeting(greeting, name)
 
 end
 
-def return_a_value(word)
+def return_a_value(phrase)
   return "Nice"
 end
 
-def last_evaluated_value(person)
+def last_evaluated_value(phrase)
   return "expert"
 end
 
