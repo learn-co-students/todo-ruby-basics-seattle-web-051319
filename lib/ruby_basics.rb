@@ -1,13 +1,14 @@
 def division(num1, num2)
- 
+  sum = "${num1}/${num}"
+  return sum
 end
 
 def assign_variable(value)
-  
+
 end
 
-def argue
-  
+def argue()
+
 end
 
 def greeting
@@ -22,6 +23,7 @@ def last_evaluated_value
 
 end
 
-def pizza_party
+def pizza_party(toppings = "cheese")
+  puts "${toppings}"
 
 end
