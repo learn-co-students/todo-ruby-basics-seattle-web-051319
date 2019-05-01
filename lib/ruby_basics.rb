@@ -1,5 +1,7 @@
 def division(num1, num2)
-  sum = (12,2)
+  num1 = 12
+  num2 = 2
+  sum = num1 / num2
   return sum
 end
 
