@@ -10,18 +10,18 @@ def assign_variable(name)
   return name
 end
 
-def argue(num)
-  num = 2
-  return num
+def argue()
+  phrase = "${}"
+  return phrase
 end
 
 def greeting(greeting, name)
 
 end
 
-def return_a_value(phrase)
-  phrase = "Nice"
-  return phrase
+def return_a_value(string)
+  puts "Nice"
+  return return_a_value
 end
 
 def last_evaluated_value(phrase)
@@ -29,7 +29,6 @@ def last_evaluated_value(phrase)
   return phrase
 end
 
-def pizza_party(toppings = "cheese")
-  puts "${toppings}"
-
+def pizza_party(toppings="cheese")
+  return "${toppings}"
 end
